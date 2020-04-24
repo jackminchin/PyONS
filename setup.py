@@ -7,7 +7,7 @@ setuptools.setup(
     name="python-ons-api-wrapper", # Replace with your own username
     version="0.0.1",
     author="Jack Minchin",
-    author_email="jackminchin@gmail.com,
+    author_email="jackminchin@gmail.com",
     description="Interact with the ONS API in Python ",
     long_description=long_description,
     long_description_content_type="text/markdown",
