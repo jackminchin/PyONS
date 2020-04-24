@@ -5,7 +5,8 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyONS", # Replace with your own username
-    version="0.0.1",
+    version_format="{tag}.dev{commitcount}+{gitsha}",
+    setup_requires=['setuptools-git-version'],
     author="Jack Minchin",
     author_email="jackminchin@gmail.com",
     description="Interact with the ONS API in Python ",
