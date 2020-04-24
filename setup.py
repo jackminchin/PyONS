@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pythonONSWrapper", # Replace with your own username
+    name="pyONS", # Replace with your own username
     version="0.0.1",
     author="Jack Minchin",
     author_email="jackminchin@gmail.com",
