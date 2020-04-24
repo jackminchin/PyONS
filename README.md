@@ -4,11 +4,12 @@
 ## Get List of Datasets
 
 ### As Pandas DataFrame
-    ```python
-    from pyONS import api.Datasets
 
-    datasets_df = Datasets().as_DataFrame()
-    ```
+```python
+from pyONS import api.Datasets
+
+datasets_df = Datasets().as_DataFrame()
+```
 
 ### As JSON
 
