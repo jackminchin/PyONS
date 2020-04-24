@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="python-ons-api-wrapper", # Replace with your own username
+    name="pythonONSWrapper", # Replace with your own username
     version="0.0.1",
     author="Jack Minchin",
     author_email="jackminchin@gmail.com",
     description="Interact with the ONS API in Python ",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/jackminchin/PythonONSAPIWrapper",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
