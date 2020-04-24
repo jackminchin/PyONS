@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyONS", # Replace with your own username
-    version_format="{tag}.dev{commitcount}+{gitsha}",
+    version_format="{tag}.{commitcount}+{gitsha}",
     setup_requires=['setuptools-git-version'],
     author="Jack Minchin",
     author_email="jackminchin@gmail.com",
